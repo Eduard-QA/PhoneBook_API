@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f967f94-6674-4e06-b3ce-2d073d54e723" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/NewUserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp/RegistrationTestsOkhttp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/GetAllContactsTestsRA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/LoginTestsRA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/RegistrationTestsRA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/okhttp/RegistrationTestsOkhttp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/okhttp/RegistrationTestsOkhttp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,8 +61,8 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.RegistrationTestsOkhttp.RegistrationWrong">
-    <configuration name="AddNewContactTestsOkhttp.addNewContactSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.LoginTestsRA.loginWrongEmail">
+    <configuration name="GetAllContactsTestsRA.getAllContactsSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -63,7 +75,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.AddNewContactTestsOkhttp.addNewContactSuccess&quot;" />
+            <option value="&quot;restassured.GetAllContactsTestsRA.getAllContactsSuccess&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -73,7 +85,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DeleteContactByIdOkhttp.deleteContactByIdSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTestsRA.loginSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -86,7 +98,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.DeleteContactByIdOkhttp.deleteContactByIdSuccess&quot;" />
+            <option value="&quot;restassured.LoginTestsRA.loginSuccess&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -96,7 +108,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTestsOkhttp.RegistrationSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTestsRA.loginWrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -109,7 +121,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.RegistrationTestsOkhttp.RegistrationSuccess&quot;" />
+            <option value="&quot;restassured.LoginTestsRA.loginWrongEmail&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -119,7 +131,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTestsOkhttp.RegistrationWrong" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTestsRA.registrationDublicate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -132,7 +144,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.RegistrationTestsOkhttp.RegistrationWrong&quot;" />
+            <option value="&quot;restassured.RegistrationTestsRA.registrationDublicate&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -142,7 +154,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTestsOkhttp.loginSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTestsRA.registrationWrongPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -155,7 +167,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.RegistrationTestsOkhttp.loginSuccess&quot;" />
+            <option value="&quot;restassured.RegistrationTestsRA.registrationWrongPassword&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -167,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RegistrationTestsOkhttp.RegistrationWrong" />
-        <item itemvalue="Gradle.RegistrationTestsOkhttp.RegistrationSuccess" />
-        <item itemvalue="Gradle.RegistrationTestsOkhttp.loginSuccess" />
-        <item itemvalue="Gradle.DeleteContactByIdOkhttp.deleteContactByIdSuccess" />
-        <item itemvalue="Gradle.AddNewContactTestsOkhttp.addNewContactSuccess" />
+        <item itemvalue="Gradle.LoginTestsRA.loginWrongEmail" />
+        <item itemvalue="Gradle.LoginTestsRA.loginSuccess" />
+        <item itemvalue="Gradle.GetAllContactsTestsRA.getAllContactsSuccess" />
+        <item itemvalue="Gradle.RegistrationTestsRA.registrationDublicate" />
+        <item itemvalue="Gradle.RegistrationTestsRA.registrationWrongPassword" />
       </list>
     </recent_temporary>
   </component>
